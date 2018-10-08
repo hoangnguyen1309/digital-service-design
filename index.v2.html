@@ -195,7 +195,7 @@
                         dolor id nibh ultricies vehicula ut id elit.
                      </p>
                      <p>
-                        <a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a>
+                        <a class="btn btn-lg btn-secondary" href="#missions" role="button">Learn more</a>
                      </p>
                   </div>
                </div>
@@ -204,14 +204,14 @@
                <img src="https://bit.ly/2OjygI3" alt="Los Angeles" id="picture">
                <div class="container">
                   <div class="carousel-caption">
-                     <h1>Stories</h1>
+                     <h1>Current projects</h1>
                      <p>
                         Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
                         gravida at eget metus. Nullam id
                         dolor id nibh ultricies vehicula ut id elit.
                      </p>
                      <p>
-                        <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                        <a class="btn btn-lg btn-primary" href="#current" role="button">Learn more</a>
                      </p>
                   </div>
                </div>
@@ -236,7 +236,7 @@
                <img src="https://bit.ly/2OjygI3" alt="Los Angeles" id="picture">
                <div class="container">
                   <div class="carousel-caption text-left">
-                     <h1>Join us</h1>
+                     <h1>What can you do? Well, a lot.</h1>
                      <p>
                         Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
                         gravida at eget metus. Nullam id
@@ -260,7 +260,7 @@
    </div>
 
    <!-- Missions -->
-   <div id='missions'>
+   <div id='missions' style='padding-top: 1px'>
       <h2 style='text-align: center; margin-top: 100px; margin-bottom: 30px'>Missions</h2>
       <div class='container'>
          <hr class="featurette-divider">
@@ -339,7 +339,7 @@
    </div>
 
    <!-- Current Projects -->
-   <div id='current'>
+   <div id='current' style='padding-top: 1px'>
       <h2 style='text-align: center; margin-top: 100px; margin-bottom: 30px'>Current Projects</h2>
       <div class='container'>
          <div class='row justify-content-center'>
@@ -364,8 +364,8 @@
                                  <form>
                                     <div class="form-row align-items-center">
                                        <div class="col-sm-5 my-1">
-                                          <label class="sr-only" for="inlineFormInputName">Name</label>
-                                          <input type="text" class="form-control" id="inlineFormInputName" placeholder="Your name">
+                                          <label class="sr-only" for="inlineFormInputName">Comment</label>
+                                          <input type="text" class="form-control" id="inlineFormInputName" placeholder="Leave comment">
                                        </div>
                                        <div class="col-sm-4">
                                           <label class="sr-only" for="inlineFormInputGroupUsername">Amount</label>
@@ -672,6 +672,7 @@
             $('.nav-item').addClass('active');
          })
       });
+
       function toggleCard() {
          if ($('.hiddenContent').css('display') === 'none') {
             $('.showedContent').css('display', 'none');
