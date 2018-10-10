@@ -60,10 +60,18 @@
 
 				</ul>
 				<ul class="navbar-nav" style='display: none' id='user'>
-					<li class='nav-item active'>
-						<a class='nav-link'>Welcome, Pekka Nieminen!</a>
-					</li>
-				</ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="welcome" data-toggle="dropdown" aria-haspopup="true"
+                           aria-expanded="false">
+                            Welcome, Pekka Nieminen!
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="welcome">
+                            <a class="dropdown-item" href="#">Profile</a>
+                            <a class="dropdown-item" href="#">Settings</a>
+                            <a onclick="signOutButton()" class="dropdown-item" href="#">Sign out</a>
+                        </div>
+                    </li>
+                </ul>
 			</div>
 		</div>
 	</nav>
@@ -626,6 +634,75 @@
 	</div>
 
 	<!-- Galleries -->
+	<div class="container">
+		
+			  <h1 class="my-4 text-center text-lg-left">Our Gallery</h1>
+		
+			  <div class="row text-center text-lg-left">
+		
+				<div class="col-lg-3 col-md-4 col-xs-6">
+				  <a href="https://www.timeanddate.com/holidays/un/international-day-persons-disabilities" class="d-block mb-4 h-100">
+					<img class="img-fluid img-thumbnail" src="../startbootstrap-thumbnail-gallery-gh-pages/disable1.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+				  <a href="http://www.vier-pfoten.bg/international/en/projects/stray-animals/sac-romania/first-stray-dog-to-become-assistance-dog-for-disabled-person/" class="d-block mb-4 h-100">
+					<img class="img-fluid img-thumbnail" src="../startbootstrap-thumbnail-gallery-gh-pages/disable2.JPG" alt="">
+				  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+				  <a href="https://www.myphilanthropedia.org/top-nonprofits/national/people-with-disabilities/2013" class="d-block mb-4 h-100">
+					<img class="img-fluid img-thumbnail" src="../startbootstrap-thumbnail-gallery-gh-pages/disable3.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+				  <a href="https://spectrum.ieee.org/at-work/tech-careers/why-hire-engineers-with-disabilities-theyre-practiced-problem-solvers" class="d-block mb-4 h-100">
+					<img class="img-fluid img-thumbnail" src="../startbootstrap-thumbnail-gallery-gh-pages/disable4.jpeg" alt="">
+				  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+				  <a href="https://www.ketto.org/fundraiser/EarlyActionChildSupport" class="d-block mb-4 h-100">
+					<img class="img-fluid img-thumbnail" src="../startbootstrap-thumbnail-gallery-gh-pages/children1.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+				  <a href="https://www.osv.com/OSVNewsweekly/Story/TabId/2672/ArtMID/13567/ArticleID/23447/Box-program-aims-to-give-poor-children-in-four-countries-Christmas-joy.aspx" class="d-block mb-4 h-100">
+					<img class="img-fluid img-thumbnail" src="../startbootstrap-thumbnail-gallery-gh-pages/children2.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+				  <a href="https://gogetfunding.com/help-to-educate-poor-children-in-india/" class="d-block mb-4 h-100">
+					<img class="img-fluid img-thumbnail" src="../startbootstrap-thumbnail-gallery-gh-pages/children3.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+				  <a href="http://billylernerny.com/adequate-footwear-for-protecting-poor-children-from-parasitic-diseases.html" class="d-block mb-4 h-100">
+					<img class="img-fluid img-thumbnail" src="../startbootstrap-thumbnail-gallery-gh-pages/children4.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+				  <a href="http://www.thejournal.ie/new-project-helps-older-people-stay-at-home-1369693-Mar2014/" class="d-block mb-4 h-100">
+					<img class="img-fluid img-thumbnail" src="../startbootstrap-thumbnail-gallery-gh-pages/old_people1.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+				  <a href="https://obssr.od.nih.gov/older-people-healthy-communities/" class="d-block mb-4 h-100">
+					<img class="img-fluid img-thumbnail" src="../startbootstrap-thumbnail-gallery-gh-pages/old_people2.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+				  <a href="https://www.sadanduseless.com/old-people-wearing-vegetation/" class="d-block mb-4 h-100">
+					<img class="img-fluid img-thumbnail" src="../startbootstrap-thumbnail-gallery-gh-pages/old_people3.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+				  <a href="https://www.lbhf.gov.uk/articles/news/2016/07/care-service-old-people-hf-praised-national-report" class="d-block mb-4 h-100">
+					<img class="img-fluid img-thumbnail" src="../startbootstrap-thumbnail-gallery-gh-pages/old_people4.jpg" alt="">
+				  </a>
+				</div>
+			  </div>
+		
+			</div>
 
 	<!-- Footer -->
 	<footer class="page-footer font-small text-light pt-4 mt-5">
@@ -658,11 +735,7 @@
 						<a href="#" class='text-light'>Galleries</a>
 					</p>
 				</div>
-
-				<!-- Grid column -->
 				<hr class="w-100 clearfix d-md-none">
-
-				<!-- Grid column -->
 				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
 					<h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
 					<p>
@@ -710,10 +783,14 @@
 		}
 
 		function signUpButton() {
-			$('#navright').css('display', 'none');
+			$('#navright').css('visibility', 'hidden');
 			$('#user').css('display', 'block');
 		}
 
+		function signOutButton() {
+            $('#navright').css('visibility', 'visible');
+            $('#user').css('display', 'none');
+        }
 	</script>
 </body>
 
