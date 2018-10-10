@@ -6,6 +6,18 @@ body {
     background-color: #fff;
 }
 
+.navbar-toggler {
+    background-color: #1B4965;
+}
+
+.fas, .fa-bars {
+    color: #fff;
+}
+
+.fab, .fa-facebook-square, .fa-linkedin {
+    color: #1B4965;
+}
+
 .featurette-heading, h2 {
     color: #1B4965;
 }
@@ -31,7 +43,7 @@ body {
     color: #fff;
 }
 
-#missions, #current {
+#missions, #current, #about {
     padding-top: 1px;
 }
 
