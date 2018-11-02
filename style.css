@@ -43,13 +43,8 @@ body {
     color: #fff;
 }
 
-#missions, #current, #about, #gallery {
+#missions, #current, #about {
     padding-top: 1px;
-}
-
-#picture {
-    width: 1920px;
-    height: 850px;
 }
 
 #icon-footer {
